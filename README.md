@@ -21,3 +21,6 @@ Flow of the project:
    the files in the document pool.
 3. The result of the plaigarism is shown on the console, at the same time the results are also written back
    on the result files:--> kmp.txt  
+4. The results written on the files are dependent on the threshold that we choose for the similarity for plagiarism,
+   we have used the similarity threshold to be 60( /100 for double type) on line no  93 of the MClass.java, please change that
+   according to your choice.   
