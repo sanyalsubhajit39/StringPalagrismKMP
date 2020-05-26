@@ -1,0 +1,8 @@
+public- access modifier, this method can be accessed globally
+
+static- the method can be accessed directly form the class,we don't have to instantiate a object and then use it
+
+void- means that this method doesn't return avalue
+
+main- the name of the method,that's the identification JVM looks for 
+
