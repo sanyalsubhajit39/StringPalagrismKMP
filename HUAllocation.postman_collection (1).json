@@ -1,0 +1,1484 @@
+{
+	"info": {
+		"_postman_id": "28e9faac-9b51-4a46-b4fa-099646d86ca7",
+		"name": "HUAllocation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Get all section lead remarks",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get the section lead remark for a particular linker through email",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get the sextion lead remark by email",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/section-lead-remarks/edorkins0",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"section-lead-remarks",
+										"edorkins0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "8ffaca0f1a953001ff9494c664ff3b26"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:03:34 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "39"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"email\": \"edorkins0\",\n    \"effort\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "Get all product detail",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get product details by Id",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get product detail by id example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-detail/id/9",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"product-detail",
+										"id",
+										"9"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "335c396c5d1d345910e48df8b56bb276"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:12:53 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "120"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 9,\n    \"name\": \"Hobby groups app in companies\",\n    \"description\": \"Build a portal where employees can enroll and socialize.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get preference of a linker by email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-pref/email/",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"product-pref",
+								"email",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a single product details",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get all the linkers with a particular product as first preference",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Linkers with particular track as first preference example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-pref/preference/Hobby groups app in companies",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"product-pref",
+										"preference",
+										"Hobby groups app in companies"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "4e67ac0c17a70107aaab3ccbbf8e2e2e"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:13:08 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1828"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 10,\n        \"email\": \"bseary9\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Food@Workplace\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 11,\n        \"email\": \"ekenwortha\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Food@Workplace\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 14,\n        \"email\": \"scrosserd\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Digiart/Art share\",\n        \"preference_3\": \"High Court Case Database\"\n    },\n    {\n        \"id\": 37,\n        \"email\": \"ndelany10\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Digiart/Art share\",\n        \"preference_3\": \"Parking Slot Booking\"\n    },\n    {\n        \"id\": 44,\n        \"email\": \"sluckwell17\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Digiart/Art share\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 49,\n        \"email\": \"bdarrach1c\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Food@Workplace\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 55,\n        \"email\": \"jtrembath1i\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Food@Workplace\",\n        \"preference_3\": \"IPL Fantasy Game\"\n    },\n    {\n        \"id\": 65,\n        \"email\": \"jhegel1s\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Hashedin Projects\",\n        \"preference_3\": \"Covid seating\"\n    },\n    {\n        \"id\": 76,\n        \"email\": \"mchomicz23\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Hashedin Projects\",\n        \"preference_3\": \"Idea Collaborator\"\n    },\n    {\n        \"id\": 80,\n        \"email\": \"rmurrish27\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Food@Workplace\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 89,\n        \"email\": \"dbellison2g\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Food@Workplace\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 97,\n        \"email\": \"sannetts2o\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Parking Slot Booking\",\n        \"preference_3\": \"Pod.com\"\n    },\n    {\n        \"id\": 98,\n        \"email\": \"avince2p\",\n        \"preference_1\": \"Hobby groups app in companies\",\n        \"preference_2\": \"Digiart/Art share\",\n        \"preference_3\": \"GHOUSE\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get  the products allocated to all linkers",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get product allocated to a particular linker by email id",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get product allocated to a linker by email example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-allocated/email/edorkins0",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"product-allocated",
+										"email",
+										"edorkins0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "9d4c54a7bdc149fc4e8e2f1e3cabacd3;o=1"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:13:22 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "90"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 89,\n        \"email\": \"edorkins0\",\n        \"name\": \"Ebenezer Dorkins\",\n        \"product\": \"GHOUSE\",\n        \"islead\": \"No\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get the linkers allocated with a particular product",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Linker with  a particular product as preference example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-allocated/product/SWIPE",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"product-allocated",
+										"product",
+										"SWIPE"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "dc894d473cbad87720902103c38a024c"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:13:28 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "257"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 3,\n        \"email\": \"gmuehleb\",\n        \"name\": \"Glynis Muehle\",\n        \"product\": \"SWIPE\",\n        \"islead\": \"Yes\"\n    },\n    {\n        \"id\": 51,\n        \"email\": \"dosharryo\",\n        \"name\": \"Damara O'Sharry\",\n        \"product\": \"SWIPE\",\n        \"islead\": \"No\"\n    },\n    {\n        \"id\": 97,\n        \"email\": \"nloyley1d\",\n        \"name\": \"Norris Loyley\",\n        \"product\": \"SWIPE\",\n        \"islead\": \"No\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Post product detail",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-detail",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"product-detail"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Post product detail example",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Leave System\",\n    \"description\": \"Create an application that fits-up the all the scenarios.\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/product-detail",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"product-detail"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "0cbfdb238c99e46380702dc611081d0c;o=1"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:12:34 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "105"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 42,\n    \"name\": \"Leave System\",\n    \"description\": \"Create an application that fits-up the all the scenarios.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Post product detail of all products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/productdetail-upload",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"productdetail-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post product preference of a linker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/productpref-upload",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"productpref-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product allocated based on score",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/perform-product-analysis-score",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"perform-product-analysis-score"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product allocated based on ratings",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Product allocated based on only ratings",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"description": "API's for product analysis and allocation .\n\nIt contains following requests:\n\nGet all section lead remarks.\n\n1.  Get section lead remarks by email\n2.  Get all product detail.\n3.  Get a single product details.\n4.  Get product details by id.\n5.  Get preferences of a linker by email.\n6.  Get all the linkers with a particular track as first preference.\n7.  Get the product allocated to all linkers.\n8.  Get all the product allocated to a linker by email.\n9.  Get all linkers with a particular track.\n10.  Post product detail.\n11.  Post product detail of all products.\n12.  Post product preference of a linker\n13.  Product allocated based on score\n14.  Product allocated based on ratrings\n15.  Product allocated based on only ratings"
+		},
+		{
+			"name": "Track",
+			"item": [
+				{
+					"name": "Get track results of all linkers",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get result of a particular linker by email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/track-result/edorkins0",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"track-result",
+								"edorkins0"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get result of a particular linker by email example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/track-result/edorkins0",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"track-result",
+										"edorkins0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "ea0a1f0cdeeada79f37e55f255e2b13f"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:16:06 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "103"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"email\": \"edorkins0\",\n    \"score_1\": 32,\n    \"score_2\": 18,\n    \"score_3\": 25,\n    \"score_4\": 32,\n    \"score_5\": 17\n}"
+						}
+					]
+				},
+				{
+					"name": "Get all the track allocated to linkers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/track-allocated",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"track-allocated"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get track allocated to a particular linker through email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/track-allocated/email/jtrembath1i",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"track-allocated",
+								"email",
+								"jtrembath1i"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get track allocated to a particular linker through email example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/track-allocated/email/jtrembath1i",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"track-allocated",
+										"email",
+										"jtrembath1i"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "32f969b475ed2bd5c5b1bf3b9412b9bf"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:16:21 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "109"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"email\": \"jtrembath1i\",\n        \"name\": \"Jennee Trembath\",\n        \"avg_score\": 33,\n        \"assigned_track\": \"Advance Angular\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get all the linkers in a particular track",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get all linkers in particular track example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/track-allocated/track/Advance Angular",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"track-allocated",
+										"track",
+										"Advance Angular"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "dc4d3a097a92a7539c5a21dcc21aacf7"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:16:26 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2140"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"email\": \"jtrembath1i\",\n        \"name\": \"Jennee Trembath\",\n        \"avg_score\": 33,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 5,\n        \"email\": \"sturmall1\",\n        \"name\": \"Shela Turmall\",\n        \"avg_score\": 32.4,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 7,\n        \"email\": \"sstrettell1g\",\n        \"name\": \"Saidee Strettell\",\n        \"avg_score\": 32,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 11,\n        \"email\": \"sbakewellw\",\n        \"name\": \"Sauveur Bakewell\",\n        \"avg_score\": 31,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 14,\n        \"email\": \"cantley1h\",\n        \"name\": \"Camille Antley\",\n        \"avg_score\": 30.6,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 17,\n        \"email\": \"ehurlec\",\n        \"name\": \"Esra Hurle\",\n        \"avg_score\": 30,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 19,\n        \"email\": \"fhindmorem\",\n        \"name\": \"Florina Hindmore\",\n        \"avg_score\": 30,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 21,\n        \"email\": \"dreubel29\",\n        \"name\": \"Donaugh Reubel\",\n        \"avg_score\": 29.8,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 23,\n        \"email\": \"ndelany10\",\n        \"name\": \"Noak Delany\",\n        \"avg_score\": 29.8,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 29,\n        \"email\": \"rmurrish27\",\n        \"name\": \"Rebbecca Murrish\",\n        \"avg_score\": 28.8,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 30,\n        \"email\": \"rkoenraad1o\",\n        \"name\": \"Regine Koenraad\",\n        \"avg_score\": 28.8,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 31,\n        \"email\": \"rmaclean2d\",\n        \"name\": \"Rivkah Maclean\",\n        \"avg_score\": 28.8,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 39,\n        \"email\": \"dwildsmith8\",\n        \"name\": \"Dolley Wildsmith\",\n        \"avg_score\": 28.2,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 41,\n        \"email\": \"lhiddsleyy\",\n        \"name\": \"Linzy Hiddsley\",\n        \"avg_score\": 28,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 47,\n        \"email\": \"bstokell2f\",\n        \"name\": \"Babara Stokell\",\n        \"avg_score\": 27.6,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 55,\n        \"email\": \"gpoetz2r\",\n        \"name\": \"Griffith Poetz\",\n        \"avg_score\": 27,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 57,\n        \"email\": \"rdawidowsky4\",\n        \"name\": \"Ricoriki Dawidowsky\",\n        \"avg_score\": 26.8,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 63,\n        \"email\": \"sghidoli2k\",\n        \"name\": \"Scotti Ghidoli\",\n        \"avg_score\": 26.4,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 67,\n        \"email\": \"scrosserd\",\n        \"name\": \"Sheelagh Crosser\",\n        \"avg_score\": 26.2,\n        \"assigned_track\": \"Advance Angular\"\n    },\n    {\n        \"id\": 70,\n        \"email\": \"tfaasp\",\n        \"name\": \"Tiffani Faas\",\n        \"avg_score\": 26.2,\n        \"assigned_track\": \"Advance Angular\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Post parallel track preference",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/parallelpref-upload",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"parallelpref-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post section lead remark",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/sectionlead-upload",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"sectionlead-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post track result",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/trackresult-upload",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"trackresult-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post  parallel track details",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/paralleltrack-upload",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"paralleltrack-upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Track allocated on basis of ratings",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Track allocated on basis of rating and effort",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/perform-track-analysis-rate-yes",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"perform-track-analysis-rate-yes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Track allocated on basis of only ratings",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Track allocated on basis of only ratings and effort",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Track allocated on basis of score with effort",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Track allocated on basis of score with no effort",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get parallel track preference",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"description": "API's used wile track analysis and allocation\n\nIt contains the following requests:\n\n1.  Get track results of all linkers.\n2.  Get result of a particular linker by email.\n3.  Get all the tracks allocated to linkers.\n4.  Get track allocated to a particular linker through email.\n5.  Get all the linkers in a particular track.\n6.  Post parallel track preference\n7.  Post section lead remark\n8.  Post track result\n9.  Post parallel track details\n10.  Track allocated on basis of ratings\n11.  Track allocated on basis of ratings and effort\n12.  Track allocated on basis of only ratings\n13.  Track allocated on basis of only ratings and effort\n14.  Track allocated on basis of score with effort\n15.  Track allocated on basis of score with no effort"
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "User login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/login",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/logout",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all linkers data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get a linkers detail by email",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Get linkers detail by email example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/linker-data/edorkins0",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"linker-data",
+										"edorkins0"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "244c7d6367f85e32560318ca536b143f;o=1"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Apr 2022 05:03:24 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "68"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"email\": \"edorkins0\",\n    \"name\": \"Ebenezer Dorkins\",\n    \"section\": \"B\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Check user",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Change password",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Post Linker data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"description": "API collection for user(linker/director) basic functionalities\n\nIt contains following requests:\n\n1.  User login\n2.  Get all linkers data\n3.  Get linkers data by email"
+		},
+		{
+			"name": "Notification",
+			"item": [
+				{
+					"name": "Get notifications sent to all linkers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/notification",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								"notification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get notification by id",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "Notification by id example",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/notification/11",
+									"protocol": "https",
+									"host": [
+										"huallocation-backend-urtjok3rza-wl",
+										"a",
+										"run",
+										"app"
+									],
+									"path": [
+										"HUAllocation",
+										"notification",
+										"11"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "vary",
+									"value": "Accept, Origin, Cookie"
+								},
+								{
+									"key": "allow",
+									"value": "GET, POST, PUT, HEAD, OPTIONS"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "DENY"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "referrer-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "cross-origin-opener-policy",
+									"value": "same-origin"
+								},
+								{
+									"key": "X-Cloud-Trace-Context",
+									"value": "4d86b454855d4fd340e52c021ff53c09;o=1"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 11 Apr 2022 14:39:41 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Google Frontend"
+								},
+								{
+									"key": "Content-Length",
+									"value": "506"
+								},
+								{
+									"key": "Alt-Svc",
+									"value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 26,\n        \"sender\": \"HUDIRECTOR\",\n        \"receiver\": \"brooper11\",\n        \"message\": \"Hello4\",\n        \"is_seen\": false,\n        \"message_all\": true,\n        \"is_sent\": true,\n        \"noti_dttime\": \"2022-04-11T20:07:59.128000+05:30\"\n    },\n    {\n        \"id\": 25,\n        \"sender\": \"HUDIRECTOR\",\n        \"receiver\": \"brooper11\",\n        \"message\": \"Hello3\",\n        \"is_seen\": false,\n        \"message_all\": true,\n        \"is_sent\": true,\n        \"noti_dttime\": \"2022-04-11T20:07:59+05:30\"\n    },\n    {\n        \"id\": 23,\n        \"sender\": \"HUDIRECTOR\",\n        \"receiver\": null,\n        \"message\": \"Hello1\",\n        \"is_seen\": false,\n        \"message_all\": true,\n        \"is_sent\": true,\n        \"noti_dttime\": \"2022-04-11T20:07:33.648000+05:30\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Post notification",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://huallocation-backend-urtjok3rza-wl.a.run.app/HUAllocation/ send-email",
+							"protocol": "https",
+							"host": [
+								"huallocation-backend-urtjok3rza-wl",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"HUAllocation",
+								" send-email"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "API collection for notification service:\n\nIt includes the following requests:\n\n1.  Get notification sent to all linkers.\n2.  Get notification by id"
+		}
+	]
+}
